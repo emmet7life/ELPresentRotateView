@@ -50,6 +50,12 @@ presentRotateView.register(self, delegate: self)
 ## TodoList
 * 可选的触摸手势监听及其对应的事件回调(之所以可选是因为一般情况下，视频播放器视图应该都具备了这些功能)
 
+## Contact
+Follow and contact me on [Sina Weibo](http://weibo.com/chenjianli1988). 
+
+## License
+ELPresentRotateView is released under the MIT license. See LICENSE for details.
+
 ## 演示gif
 ![Demo1](https://github.com/emmet7life/ELPresentRotateView/blob/master/Demo1.gif "Demo1")
 ![Demo2](https://github.com/emmet7life/ELPresentRotateView/blob/master/Demo2.gif "Demo2")
