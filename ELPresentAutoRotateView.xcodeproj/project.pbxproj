@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B331592948D2C3B48994F50B /* Pods_ELPresentAutoRotateView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1518658B4C29A8DB02BE719 /* Pods_ELPresentAutoRotateView.framework */; };
+		F274EF141F1387140018B348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF131F1387140018B348 /* AppDelegate.swift */; };
+		F274EF191F1387140018B348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F274EF171F1387140018B348 /* Main.storyboard */; };
+		F274EF1B1F1387140018B348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F274EF1A1F1387140018B348 /* Assets.xcassets */; };
+		F274EF1E1F1387140018B348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F274EF1C1F1387140018B348 /* LaunchScreen.storyboard */; };
+		F274EF2F1F1388ED0018B348 /* Demo+DemoView3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF281F1388ED0018B348 /* Demo+DemoView3Controller.swift */; };
+		F274EF301F1388ED0018B348 /* Demo+DemoView2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF291F1388ED0018B348 /* Demo+DemoView2Controller.swift */; };
+		F274EF311F1388ED0018B348 /* Demo+CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF2A1F1388ED0018B348 /* Demo+CustomViewController.swift */; };
+		F274EF321F1388ED0018B348 /* Demo+DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF2B1F1388ED0018B348 /* Demo+DemoViewController.swift */; };
+		F274EF331F1388ED0018B348 /* Demo+TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF2C1F1388ED0018B348 /* Demo+TableViewCell.swift */; };
+		F274EF351F1388ED0018B348 /* Demo+DemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF2E1F1388ED0018B348 /* Demo+DemoListViewController.swift */; };
+		F274EF371F1388F80018B348 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F274EF361F1388F80018B348 /* video.mp4 */; };
+		F274EF3F1F1388FE0018B348 /* EL+BasicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF381F1388FE0018B348 /* EL+BasicController.swift */; };
+		F274EF401F1388FE0018B348 /* EL+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF391F1388FE0018B348 /* EL+View.swift */; };
+		F274EF411F1388FE0018B348 /* EL+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF3A1F1388FE0018B348 /* EL+Protocol.swift */; };
+		F274EF421F1388FE0018B348 /* EL+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF3B1F1388FE0018B348 /* EL+Transition.swift */; };
+		F274EF431F1388FE0018B348 /* EL+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF3C1F1388FE0018B348 /* EL+Utilities.swift */; };
+		F274EF441F1388FE0018B348 /* Extension+UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF3D1F1388FE0018B348 /* Extension+UITabBarController.swift */; };
+		F274EF451F1388FE0018B348 /* Extension+UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F274EF3E1F1388FE0018B348 /* Extension+UINavigationController.swift */; };
+		F2CA5FB71F147B2200B8C97D /* EL_TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CA5FB61F147B2200B8C97D /* EL_TodoList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E2A5E271C0C59D7E41F3CD6 /* Pods-ELPresentAutoRotateView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELPresentAutoRotateView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELPresentAutoRotateView/Pods-ELPresentAutoRotateView.release.xcconfig"; sourceTree = "<group>"; };
+		9E7D5DF6DFF07945898F94E8 /* Pods-ELPresentAutoRotateView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELPresentAutoRotateView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELPresentAutoRotateView/Pods-ELPresentAutoRotateView.debug.xcconfig"; sourceTree = "<group>"; };
+		C1518658B4C29A8DB02BE719 /* Pods_ELPresentAutoRotateView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELPresentAutoRotateView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F274EF101F1387140018B348 /* ELPresentAutoRotateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELPresentAutoRotateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F274EF131F1387140018B348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F274EF181F1387140018B348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F274EF1A1F1387140018B348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F274EF1D1F1387140018B348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F274EF1F1F1387140018B348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F274EF281F1388ED0018B348 /* Demo+DemoView3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Demo+DemoView3Controller.swift"; path = "example/Demo+DemoView3Controller.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF291F1388ED0018B348 /* Demo+DemoView2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Demo+DemoView2Controller.swift"; path = "example/Demo+DemoView2Controller.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF2A1F1388ED0018B348 /* Demo+CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Demo+CustomViewController.swift"; path = "example/Demo+CustomViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF2B1F1388ED0018B348 /* Demo+DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Demo+DemoViewController.swift"; path = "example/Demo+DemoViewController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF2C1F1388ED0018B348 /* Demo+TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "Demo+TableViewCell.swift"; path = "example/Demo+TableViewCell.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF2E1F1388ED0018B348 /* Demo+DemoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Demo+DemoListViewController.swift"; path = "example/Demo+DemoListViewController.swift"; sourceTree = "<group>"; };
+		F274EF361F1388F80018B348 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = resources/video.mp4; sourceTree = "<group>"; };
+		F274EF381F1388FE0018B348 /* EL+BasicController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "EL+BasicController.swift"; path = "sources/EL+BasicController.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF391F1388FE0018B348 /* EL+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "EL+View.swift"; path = "sources/EL+View.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF3A1F1388FE0018B348 /* EL+Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "EL+Protocol.swift"; path = "sources/EL+Protocol.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF3B1F1388FE0018B348 /* EL+Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = "EL+Transition.swift"; path = "sources/EL+Transition.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F274EF3C1F1388FE0018B348 /* EL+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "EL+Utilities.swift"; path = "sources/EL+Utilities.swift"; sourceTree = "<group>"; };
+		F274EF3D1F1388FE0018B348 /* Extension+UITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UITabBarController.swift"; path = "sources/Extension+UITabBarController.swift"; sourceTree = "<group>"; };
+		F274EF3E1F1388FE0018B348 /* Extension+UINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+UINavigationController.swift"; path = "sources/Extension+UINavigationController.swift"; sourceTree = "<group>"; };
+		F2CA5FB61F147B2200B8C97D /* EL_TodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = EL_TodoList.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F274EF0D1F1387140018B348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B331592948D2C3B48994F50B /* Pods_ELPresentAutoRotateView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58FBF7865CCCF7C5E5E35A4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1518658B4C29A8DB02BE719 /* Pods_ELPresentAutoRotateView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83823435BAF82B7E4F97F6DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E7D5DF6DFF07945898F94E8 /* Pods-ELPresentAutoRotateView.debug.xcconfig */,
+				8E2A5E271C0C59D7E41F3CD6 /* Pods-ELPresentAutoRotateView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F274EF071F1387130018B348 = {
+			isa = PBXGroup;
+			children = (
+				F274EF121F1387140018B348 /* ELPresentAutoRotateView */,
+				F274EF111F1387140018B348 /* Products */,
+				83823435BAF82B7E4F97F6DF /* Pods */,
+				58FBF7865CCCF7C5E5E35A4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F274EF111F1387140018B348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F274EF101F1387140018B348 /* ELPresentAutoRotateView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F274EF121F1387140018B348 /* ELPresentAutoRotateView */ = {
+			isa = PBXGroup;
+			children = (
+				F274EF271F1388DE0018B348 /* example */,
+				F274EF261F1388D80018B348 /* resources */,
+				F274EF251F1388D20018B348 /* sources */,
+				F274EF131F1387140018B348 /* AppDelegate.swift */,
+				F274EF171F1387140018B348 /* Main.storyboard */,
+				F274EF1A1F1387140018B348 /* Assets.xcassets */,
+				F274EF1C1F1387140018B348 /* LaunchScreen.storyboard */,
+				F274EF1F1F1387140018B348 /* Info.plist */,
+			);
+			path = ELPresentAutoRotateView;
+			sourceTree = "<group>";
+		};
+		F274EF251F1388D20018B348 /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				F274EF381F1388FE0018B348 /* EL+BasicController.swift */,
+				F274EF391F1388FE0018B348 /* EL+View.swift */,
+				F274EF3A1F1388FE0018B348 /* EL+Protocol.swift */,
+				F274EF3B1F1388FE0018B348 /* EL+Transition.swift */,
+				F274EF3C1F1388FE0018B348 /* EL+Utilities.swift */,
+				F274EF3D1F1388FE0018B348 /* Extension+UITabBarController.swift */,
+				F274EF3E1F1388FE0018B348 /* Extension+UINavigationController.swift */,
+				F2CA5FB61F147B2200B8C97D /* EL_TodoList.swift */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+		F274EF261F1388D80018B348 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F274EF361F1388F80018B348 /* video.mp4 */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		F274EF271F1388DE0018B348 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				F274EF2E1F1388ED0018B348 /* Demo+DemoListViewController.swift */,
+				F274EF2B1F1388ED0018B348 /* Demo+DemoViewController.swift */,
+				F274EF291F1388ED0018B348 /* Demo+DemoView2Controller.swift */,
+				F274EF281F1388ED0018B348 /* Demo+DemoView3Controller.swift */,
+				F274EF2A1F1388ED0018B348 /* Demo+CustomViewController.swift */,
+				F274EF2C1F1388ED0018B348 /* Demo+TableViewCell.swift */,
+			);
+			name = example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F274EF0F1F1387140018B348 /* ELPresentAutoRotateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F274EF221F1387140018B348 /* Build configuration list for PBXNativeTarget "ELPresentAutoRotateView" */;
+			buildPhases = (
+				09B6D7D16CAD8E391F79058D /* [CP] Check Pods Manifest.lock */,
+				F274EF0C1F1387140018B348 /* Sources */,
+				F274EF0D1F1387140018B348 /* Frameworks */,
+				F274EF0E1F1387140018B348 /* Resources */,
+				71CE59BA8C92D761BB320D7D /* [CP] Embed Pods Frameworks */,
+				0CD5DA4A6B9F72511C4C4400 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELPresentAutoRotateView;
+			productName = ELPresentAutoRotateView;
+			productReference = F274EF101F1387140018B348 /* ELPresentAutoRotateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F274EF081F1387130018B348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈建立";
+				TargetAttributes = {
+					F274EF0F1F1387140018B348 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F274EF0B1F1387130018B348 /* Build configuration list for PBXProject "ELPresentAutoRotateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F274EF071F1387130018B348;
+			productRefGroup = F274EF111F1387140018B348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F274EF0F1F1387140018B348 /* ELPresentAutoRotateView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F274EF0E1F1387140018B348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F274EF1E1F1387140018B348 /* LaunchScreen.storyboard in Resources */,
+				F274EF1B1F1387140018B348 /* Assets.xcassets in Resources */,
+				F274EF191F1387140018B348 /* Main.storyboard in Resources */,
+				F274EF371F1388F80018B348 /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09B6D7D16CAD8E391F79058D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0CD5DA4A6B9F72511C4C4400 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELPresentAutoRotateView/Pods-ELPresentAutoRotateView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71CE59BA8C92D761BB320D7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELPresentAutoRotateView/Pods-ELPresentAutoRotateView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F274EF0C1F1387140018B348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F274EF321F1388ED0018B348 /* Demo+DemoViewController.swift in Sources */,
+				F274EF401F1388FE0018B348 /* EL+View.swift in Sources */,
+				F274EF311F1388ED0018B348 /* Demo+CustomViewController.swift in Sources */,
+				F2CA5FB71F147B2200B8C97D /* EL_TodoList.swift in Sources */,
+				F274EF431F1388FE0018B348 /* EL+Utilities.swift in Sources */,
+				F274EF3F1F1388FE0018B348 /* EL+BasicController.swift in Sources */,
+				F274EF421F1388FE0018B348 /* EL+Transition.swift in Sources */,
+				F274EF331F1388ED0018B348 /* Demo+TableViewCell.swift in Sources */,
+				F274EF411F1388FE0018B348 /* EL+Protocol.swift in Sources */,
+				F274EF441F1388FE0018B348 /* Extension+UITabBarController.swift in Sources */,
+				F274EF451F1388FE0018B348 /* Extension+UINavigationController.swift in Sources */,
+				F274EF2F1F1388ED0018B348 /* Demo+DemoView3Controller.swift in Sources */,
+				F274EF141F1387140018B348 /* AppDelegate.swift in Sources */,
+				F274EF351F1388ED0018B348 /* Demo+DemoListViewController.swift in Sources */,
+				F274EF301F1388ED0018B348 /* Demo+DemoView2Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F274EF171F1387140018B348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F274EF181F1387140018B348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F274EF1C1F1387140018B348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F274EF1D1F1387140018B348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F274EF201F1387140018B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F274EF211F1387140018B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F274EF231F1387140018B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7D5DF6DFF07945898F94E8 /* Pods-ELPresentAutoRotateView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ELPresentAutoRotateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmet7life.elpresentautorotateview.ELPresentAutoRotateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F274EF241F1387140018B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2A5E271C0C59D7E41F3CD6 /* Pods-ELPresentAutoRotateView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ELPresentAutoRotateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emmet7life.elpresentautorotateview.ELPresentAutoRotateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F274EF0B1F1387130018B348 /* Build configuration list for PBXProject "ELPresentAutoRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F274EF201F1387140018B348 /* Debug */,
+				F274EF211F1387140018B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F274EF221F1387140018B348 /* Build configuration list for PBXNativeTarget "ELPresentAutoRotateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F274EF231F1387140018B348 /* Debug */,
+				F274EF241F1387140018B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F274EF081F1387130018B348 /* Project object */;
+}
