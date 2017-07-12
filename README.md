@@ -13,7 +13,7 @@
 ELPresentRotateView作为一个可以容纳任何视图组件的容器视图角色，可以帮助任何视图控件来自动(在一定条件下)或者手动以present的形式来旋转它们到新的视图控制器中(利用自定义转场动画)。效果类似 今日头条、优酷、爱奇艺等视频类APP的视频旋转特效。
 
 
-## 使用步骤
+## 使用
 1. 添加库组件到目标组件
 
 举一个例子来理解比较容易，其实很简单，只是描述起来比较麻烦：
@@ -50,12 +50,16 @@ presentRotateView.register(self, delegate: self)
 一般情况下，使用库自带的 `BasicELPresentRotateViewController` 即可，但是用户也可以通过继承 `BasicELPresentRotateViewController` 或者 使用自己的UIViewController然后实现ELPresentRotateViewControllerProtocol协议来自定义present出来时的UI界面。具体使用请看Demo，比较简单。
 
 
-## 注意事项
+## 注意
 1. 如果在UITableView或者UICollectionView等这种涉及到视图重用的视图中使用要格外注意，在其对应代理的 `didEndDisplaying` 系列方法中，调用 `unregister()` 方法。
 
 
 ## TodoList
 * 可选的触摸手势监听及其对应的事件回调(之所以可选是因为一般情况下，视频播放器视图应该都具备了这些功能)
+
+## Others
+分享一个今日头条的官方技术博客的一篇文章，今日头条的APP研团队分享了他们是如何实现视频旋转的原理。(早在看到这篇文章之前，我已经实现了本组件，不是抄袭哟)，后续我会写一篇文章讲解我的实现方案（其实源码中已经注释的够清楚了，估计会有人嫌弃注释过多，哈哈）
+
 
 ## Contact
 Follow and contact me on [Sina Weibo](http://weibo.com/chenjianli1988). 
