@@ -67,10 +67,6 @@ class ELPresentRotateView: UIView {
     fileprivate var presentedConstraints: [NSLayoutConstraint] = []
     fileprivate var dismissedConstraints: [NSLayoutConstraint] = []
 
-    fileprivate lazy var defaultPresentedController: BasicELPresentRotateViewController = {
-        return BasicELPresentRotateViewController(self)
-    }()
-
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.setupUI()
@@ -89,7 +85,7 @@ class ELPresentRotateView: UIView {
         if let presentedController = delegate?.presentRotateViewGeneratePresentedController(self) {
             return presentedController
         }
-        return defaultPresentedController
+        return BasicELPresentRotateViewController(self)
     }
 
 }
